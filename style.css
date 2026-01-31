@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --VeryDarkBlue: hsl(233, 47%, 7%); /*(main background)*/
+  --DarkDesaturatedBlue: hsl(244, 38%, 16%); /*(card background)*/
+  --SoftViolet: hsl(277, 64%, 61%); /*(accent)*/
+  --White: hsl(0, 0%, 100%); /*(main heading, stats)*/
+  --SlightlyTransparentWhite: hsla(0, 0%, 100%, 0.75); /*(main paragraph)*/
+  --SlightlyTransparentWhite2: hsla(0, 0%, 100%, 0.6); /*(stat headings)*/
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+
+  min-width: 100vh;
+  min-height: 100vh;
+
+  background-color: var(--VeryDarkBlue);
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  width: 900px;
+  height: 372px;
+  margin: auto;
+  display: flex;
+  border-radius: 5px;
+  background-color: var(--DarkDesaturatedBlue);
+}
+
+.left {
+  padding: 50px;
+}
+
+.title > h1 {
+  color: var(--White);
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.title > h1 > span {
+  color: var(--SoftViolet);
+}
+
+.title > p {
+  color: var(--SlightlyTransparentWhite2);
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 60px;
+  margin-right: 9px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers > div > h2 {
+  color: var(--White);
+}
+
+.numbers > div > p {
+  color: var(--SlightlyTransparentWhite2);
+}
+
+.right > img {
+  width: 450px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media (max-width: 420px) {
+  body {
+    height: 1140px;
+    width: 370px;
+    min-width: 0vh;
+    min-height: 0vh;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 610px;
+    width: 350px;
+    margin-top: 383px;
+  }
+
+  .left {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 17px;
+  }
+
+  .title > h1 {
+    width: 264px;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .title > p {
+    width: 283px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .numbers > div {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .right > img {
+    width: 350px;
+    position: absolute;
+    top: 100px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+  }
+}
