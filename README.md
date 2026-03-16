@@ -1,28 +1,34 @@
-Stats Preview Card Component 📊
+# Stats Preview Card Component
 
-Bem-vindo! 👋  
-Obrigado por conferir este projeto.
+Um componente de preview com estatísticas desenvolvido com foco em organização de layout, hierarquia visual e responsividade utilizando HTML e CSS.  
+O projeto apresenta um card com informações e métricas destacadas, seguindo um layout moderno e bem estruturado.
 
-Este projeto foi desenvolvido por **Lucas Ferreira** em **2026**, como parte dos estudos em **Análise e Desenvolvimento de Sistemas**.
+🔗 Acesse o projeto:  
+https://lucasferreiraprogramador.github.io/stats-preview-card-component/
 
-🧩 Sobre o projeto  
-Componente de interface desenvolvido com HTML e CSS para exibição de métricas e indicadores, com foco em design moderno, organização visual e responsividade.
+---
 
-O projeto foi criado para praticar conceitos fundamentais de front-end, como HTML semântico, estilização com CSS e adaptação de layout para diferentes tamanhos de tela.
+## Funcionalidades
 
-🎯 Funcionalidades  
-- Exibição de métricas e estatísticas  
-- Layout responsivo (desktop e mobile)  
-- Estrutura visual clara e objetiva  
+- Layout estruturado em card  
+- Destaque visual para métricas e informações  
+- Organização clara do conteúdo  
+- Responsividade para diferentes telas  
+- Interface simples e objetiva  
 
-🛠 Tecnologias utilizadas  
-- HTML5  
-- CSS3  
+---
 
-🚀 Execução  
-Basta abrir o arquivo `index.html` em qualquer navegador moderno.
+## Tecnologias Utilizadas
 
-📝 Licença  
-Este projeto está sob licença MIT.
+- HTML5 — estrutura semântica  
+- CSS3 — layout, responsividade e estilos  
 
-✨ Projeto desenvolvido para fins educacionais e portfólio.
+---  
+
+## 👤 Autor
+- [Lucas Ferreira](https://lucas.ferreiradev.com/)
+- [GitHub](https://github.com/LucasFerreiraProgramador)
+- [LinkedIn](https://www.linkedin.com/in/lucasferreira-dev-front-end/)
+
+## 📄 Licença
+Este projeto foi desenvolvido para fins de estudo e prática de desenvolvimento Front-End.
